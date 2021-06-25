@@ -17,11 +17,10 @@ int main(){
     int s;
     printf("Ingrese el primer numero\n");
     scanf("%d", &f);
-    printf("Ingrese el primer numero\n");
+    printf("Ingrese el siguiente numero\n");
     scanf("%d", &s);
     int r = multiplicacion(f,s);
-    printf("el resultado es %d", r);
-    system ("pause");
-    printf("el resultado es %d", r);
+    printf("el resultado es %d\n", r);
+
     return 0;
 }
